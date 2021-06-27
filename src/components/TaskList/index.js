@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { archiveTask, pinTask } from '../lib/redux'
+import { archiveTask, pinTask } from 'lib/redux'
 
-import Task from './Task'
+import Task from 'components/Task'
 
 export const PureTaskList = ({ loading, tasks, onPinTask, onArchiveTask }) => {
   const events = {

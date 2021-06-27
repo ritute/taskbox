@@ -1,6 +1,7 @@
-import { PureTaskList } from './TaskList'
-import * as TaskStories from './Task.stories'
+import { PureTaskList } from 'components/TaskList'
+import * as TaskStories from 'components/Task/stories'
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   component: PureTaskList,
   title: 'TaskList',

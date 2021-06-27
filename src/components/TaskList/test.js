@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react'
 import { composeStories } from '@storybook/testing-react'
 
-import * as TaskListStories from './TaskList.stories' //👈  Our stories imported here
+import * as TaskListStories from './stories' //👈  Our stories imported here
 
 //👇 composeStories will process all information related to the component (e.g., args)
 const { WithPinnedTasks } = composeStories(TaskListStories)

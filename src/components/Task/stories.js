@@ -1,5 +1,6 @@
-import Task from './Task'
+import Task from 'components/Task'
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   component: Task,
   title: 'Task',
